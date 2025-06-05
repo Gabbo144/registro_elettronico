@@ -1,9 +1,16 @@
 <h1 align="center">
   <img src="https://i.imgur.com/BCktmzl.png" alt="Registto elettronico"><br>
-
-<a href='https://play.google.com/store/apps/details?id=com.riccardocalligaro.registro_elettronico&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="100px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
-
 </h1>
+
+⚠️ **Important Update**  
+> Unfortunately, I had to remove Registro Elettronico from the Play Store.  
+> Google introduced a new policy requiring developers to display a full address and phone number on their app’s public listing. As a solo developer, this presents privacy concerns I'm not comfortable with.  
+>  
+> Setting up a company account was another option, but it involves considerable bureaucracy and financial commitment that I can't justify at the moment.  
+>  
+> 👉 [Read the full article here on my website](https://riccard0.dev/blog/why-i-removed-my-app-from-play-store/)
+
+---
 
 Mobile application for electronic school register (Classeviva) that I developed during highschool from december of 2019 to january of 2021. The app is currently on the [Play Store](https://play.google.com/store/apps/details?id=com.riccardocalligaro.registro_elettronico) and has more than 20 000 downloads and 5 000 daily active users.
 
