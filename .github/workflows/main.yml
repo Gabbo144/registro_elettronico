@@ -1,3 +1,33 @@
 - name: Flutter action
 
   uses: subosito/flutter-action@v2.21.0
+
+on:
+  workflow_dispatch:   # puoi avviarlo manualmente
+  push:
+    branches: [ main ] # oppure a ogni push su main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.19.0" # puoi cambiare versione se serve
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build APK
+        run: flutter build apk --release
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
